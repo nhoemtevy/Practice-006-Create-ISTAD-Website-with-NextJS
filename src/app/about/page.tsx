@@ -9,7 +9,7 @@ import {MdEmail} from "react-icons/md";
 
 export default function AboutUs() {
     return (
-        
+
         <div className="container mx-auto grid grid-cols-1 gap-4 my-8">
             <div className="bg-white p-6 grid grid-cols-1 gap-2">
                 <h1 className="flex items-center text-xl font-bold tracking-[0.25rem]">
@@ -62,12 +62,12 @@ export default function AboutUs() {
             <div className="bg-white p-6 grid grid-cols-1 gap-2">
                 <p className="flex items-center gap-2"><FaMapMarker/>No. 24, St. 562, Sangkat Boeung kak I, Khan Toul
                     Kork, Phnom Penh, Cambodia</p>
-                <p className="flex items-center gap-2"><BiPhone/>(+855) 95 990 910 | (+855) 93 990 910</p>
-                <p className="flex items-center gap-2"><BiLogoTelegram/>Telegram Channel</p>
-                <p className="flex items-center gap-2"><BiLogoFacebook/>Facebook</p>
-                <p className="flex items-center gap-2"><MdEmail/>info.istad@gmail.com</p>
-                <p className="flex items-center gap-2"><BiGlobe/>www.istad.co</p>
-                <p className="flex items-center gap-2"><BiLogoYoutube/>YouTube</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><BiPhone/>(+855) 95 990 910 | (+855) 93 990 910</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><BiLogoTelegram/>Telegram Channel</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><BiLogoFacebook/>Facebook</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><MdEmail/>info.istad@gmail.com</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><BiGlobe/>www.istad.co</p>
+                <p className="flex items-center gap-2 hover:text-blue-900"><BiLogoYoutube/>YouTube</p>
             </div>
         </div>
     )

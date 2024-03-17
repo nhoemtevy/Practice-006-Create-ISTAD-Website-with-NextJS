@@ -5,8 +5,10 @@ import SliderComponent from "@/components/SliderComponent";
 export default function Home() {
   return (
     <>
+    <main>
     <CarouselComponent/>
-        <SliderComponent/>
+    <SliderComponent/>
+    </main>
     </>
         
   );
