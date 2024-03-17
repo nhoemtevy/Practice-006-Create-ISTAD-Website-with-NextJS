@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavbarComponent from "@/components/NavbarComponent";
 import FooterComponent from "@/components/FooterComponent"
-import CarouselComponent from "@/components/CarouselComponent";
-import SliderComponent from "@/components/SliderComponent";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,8 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavbarComponent/>
-        <CarouselComponent/>
-        <SliderComponent/>
         <div className="pt-[80px]">
         {children}
         <FooterComponent/>
