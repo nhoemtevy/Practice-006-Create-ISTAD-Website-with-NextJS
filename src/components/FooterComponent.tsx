@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function FooterComponent() {
   return (
-   <footer className='bg-[#253c95] h-auto py-4 px-16 '>
+   <footer className='bg-[#253c95] h-auto mt-28 py-6 px-16 '>
         <section className='flex justify-between items-center w-full'>
         <section className='logo w-[25%] '>
             <Image alt='logo' width={100} height={100} src={"/assets/logo/CSTAD_120.png"} />

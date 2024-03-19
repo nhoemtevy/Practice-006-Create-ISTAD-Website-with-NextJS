@@ -1,7 +1,5 @@
 import SliderComponent from "@/components/SliderComponent";
-
-
-const SliderPage = () =>{
+export const SliderPage = () =>{
     return (
         <>
             <SliderComponent />

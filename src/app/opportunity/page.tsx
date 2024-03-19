@@ -1,10 +1,10 @@
-import SliderComponent from '@/components/SliderComponent'
 import React from 'react'
 
 export const page = () => {
-    return (
-        <>
-          <SliderComponent/>  
-        </>
-    )
+  return (
+    <div>
+      ghjkkl;l;
+    </div>
+  )
 }
+
