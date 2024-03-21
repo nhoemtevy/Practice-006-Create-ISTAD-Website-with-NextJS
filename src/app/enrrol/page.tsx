@@ -14,7 +14,7 @@ export default function Enroll() {
                                 <Label htmlFor="fullname1" value="Full name (en)" className="uppercase font-bold tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
-                            <TextInput id="fullname1" type="email" placeholder="Ruos Sovanra" required/>
+                            <TextInput id="fullname1" type="email" placeholder="full name" required/>
                         </div>
                         <div>
                             <div className="mb-2 block ">
